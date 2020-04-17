@@ -1,26 +1,45 @@
 ---
 layout: page
-title: About the Jekyll Theme
+title: Vipul Mishra
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
-modified: 2014-08-08T19:44:38.564948-04:00
+modified: 2020-04-14T19:44:38.564948-04:00
 image:
-  feature: back.png
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: back1.jpg
+  credit: Cassie Boca
+  creditlink: https://unsplash.com/photos/lCE9uRmh7b8
 ---
+I hold a PhD degree in Computer Science and Engineering from [Indian Institute of Technology Indore](https://iiti.ac.in/). **Currently, I am working as Assistant professor at [Bennett University](https://www.bennett.edu.in/).** I am coordinator, Product developer of the nation wide AI skilling & research initiative **[LeadingIndia.AI](https://www.leadingindia.ai/)**.
 
-Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the follow up to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes) --- by designer slash illustrator [Michael Rose](http://mademistakes.com).
+## My Research Areas are:
 
-## So Simple Theme is all about:
+* Machine Learning.
+* Embedded AI.
+* IoT for Smart Home. Smart City, Agriculture.
+* Emerging Technologies.
+* Architectural Synthesis (VLSI).
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
-* Minimal embellishments and subtle animations.
-* Optional large feature images for posts and pages.
-* [Custom 404 page]({{ site.url }}/404.html) to get you started.
-* [Simple site search](https://github.com/christian-fei/Simple-Jekyll-Search)
-* Support for Disqus Comments
+## Academic
 
-<a markdown="0" href="{{ site.url }}/theme-setup" class="btn">Install So Simple Theme</a>
+* Post Doctoral Scholar
+  * University of Kentucky, USA
+  * Oct 2015- Jan 2016
+  
+* Ph.D. Computer Science and Engineering
+  * Indian Institute of Technology, Indore
+  * CPI: 10.0
+  * Jan 2013- July 2015
+  
+* M.E. Computer Engineering
+  * Shri Govindram Seksaria Institute of Technology and Science, Indore
+  * Degree Grade: 79.32%
+  * Aug 2009 - Dec 2011
+  
+* B.E. Computer Science and Engineering
+  * Nagaji Institute of Technology and Management Gwalior (RGPV, Bhopal)
+  * Degree Grade: 76.0%
+  * Aug 2005 - June 2009
+ 
+
+<a markdown="0" href="https://www.bennett.edu.in/faculties/dr-vipul-kumar-mishra/" class="btn">Vipul Mishra</a>
 
 [^1]: Example: *domain.com/category-name/post-title*
