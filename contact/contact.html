@@ -1,0 +1,141 @@
+---
+title: "Contact &#x1F3EB;"
+permalink: /contact/
+layout: archive
+author_profile: true
+header:
+  image: /images/cover.jpg
+  caption: "[**Contact**](https://arjun009.github.io/contact)"
+---
+
+
+<div class="boxing23">
+      
+      <form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="on"> 
+
+          <label class="info23" for="name23">Name*</label>
+		  <input class="info123" id="nameField23" name="entry.2005620554" placeholder="Full name" type="text" required> 
+   
+      
+         <label  class="info23" for="email23">Email*</label>
+		 <input class="info123" id="emailField23" name="entry.1045781291" placeholder="Email" type="email" required> 
+
+       
+       <label  class="info23" for="message23">Message*</label>
+		 <textarea placeholder="Your message" class="info223" id="mobField23" name="entry.839337160"  type="text" required></textarea>
+
+        <button id="send23" type="submit" class="common_btn23">Send</button>
+      </form>
+ </div>
+ 
+  <div id="success-msg" style="display:none;">
+	
+
+  <h2>Thank You &#x1F49B;</h2>
+  <h2>&#x2795; Follow</h2>
+  <div style="margin-bottom:2%;" class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="arjunmohnot"><a class="LI-simple-link" href='https://in.linkedin.com/in/arjunmohnot?trk=profile-badge'>Arjun Mohnot</a></div> 
+<span style="margin-bottom:-2%;" ><h2>Tweet me <img src="/images/twitter.png" width="40" ></img></h2>
+</span>
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="timeline-wrapper">
+	<a class="twitter-timeline" data-tweet-limit="5" data-theme="dark" data-link-color="#FAB81E" href="https://twitter.com/MohnotArjun?ref_src=twsrc%5Etfw">Tweets</a>
+</div>
+
+
+ </div>
+ 
+ 
+
+
+<div id="map" style="width:100%;height:60%; margin-top:5%;"></div> 
+    <script> 
+      function initMap() { 
+        var uluru = {lat: 28.4500, lng: 77.5843}; 
+        var map = new google.maps.Map(document.getElementById('map'), { 
+          zoom: 9, 
+          center: uluru 
+        }); 
+        var marker = new google.maps.Marker({ 
+          position: uluru, 
+          map: map 
+        });
+
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+          title: 'Bennett University, Greater Noida'
+        }); 
+      } 
+    </script> 
+    <script async defer 
+    src= 
+"https://maps.googleapis.com/maps/api/js?key= 
+AIzaSyDUJW90kJ_Hc2C6q_D_1Ni_goAzgS6_vzo&callback=initMap"> 
+    </script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+function postToGoogle() {
+                var field1 = $("#nameField23").val();
+                var field2 = $("#emailField23").val();
+                var field3 = $("#mobField23").val();
+          
+ 				
+				if(field1 == ""){
+					alert('Please Fill Your Name');
+					document.getElementById("nameField23").focus();
+					return false;
+				}
+				if(field2 == ""){
+					alert('Please Fill Your Email');
+					document.getElementById("emailField23").focus();
+					return false;
+				}
+			if(field3 == "" || field3.length > 120){
+          if(field3.length>100){
+            	alert('It should be less than 120 words');
+          }
+          else{
+					alert('Your message should not be blank.');}
+					document.getElementById("mobField23").focus();
+					return false;
+				}
+
+
+				
+	
+                $.ajax({
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLSfskv5_1YEMPjDFe1TQRQn16sOmq2t4SYASAKvOyXeh2s7onA/formResponse?",
+					data: {"entry.2005620554": field1, "entry.1045781291": field2, "entry.839337160": field3},
+                    type: "POST",
+                    dataType: "xml",
+                    success: function(d)
+					{
+					},
+					error: function(x, y, z)
+						{
+
+							$('#success-msg').show();
+							$('#form').hide();
+							
+						}
+                });
+				return false;
+            }
+</script>
