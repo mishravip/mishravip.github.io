@@ -4,7 +4,7 @@ title: Vipul Mishra
 locale: en_US
 description: NVIDIA DLI, Asst Prof at Bennett University
 logo: vipulMishra.jpg
-url: https://mishravip.github.io/
+url: https://mishravip.github.io
 
 # Jekyll configuration
 
@@ -34,28 +34,28 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 
 
-comments: true
+comments: false
 
 # Site owner
 owner:
-  name: Michael Rose
-  avatar: michael-rose-photo.jpg
-  email: michael@mademistakes.com
+  name: Vipul Mishra
+  avatar: vipulMishra.jpg
+  email: vipul.mishra@bennett.edu.in
   disqus-shortname: mishravip
-  twitter: mmistakes
-  facebook: michaelrose
-  github: mmistakes
+  twitter: way2vipul
+  facebook: way2vipul
+  github: mishravipul
   stackexchange:
-  linkedin:
-  instagram: mmistakes
+  linkedin: vipul-kumar-mishra-7bb43953
+  instagram: way2vipul
   flickr:
-  tumblr: mademistakes
-  pinterest:
+  tumblr: 
+  pinterest: way2vipul
   weibo:
   google:
-    plus: MichaelRoseDesign
-    analytics: UA-2011187-2
-    verify: UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
-    ad-client: ca-pub-7328585512091257
-    ad-slot: 7855747535
-  bing-verify: D81F4C18A6CB3018F64D7C827D953DFD
+    plus: 
+    analytics: 
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
