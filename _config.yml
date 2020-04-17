@@ -37,9 +37,25 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 comments: true
 
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "vipulmishra"
+  provider: "facebook"
+  facebook:
+    appid: 
+    num_posts: 5
+    colorscheme: "dark"
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 # Site owner
 owner:
