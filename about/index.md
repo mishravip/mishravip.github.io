@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Vipul Mishra
-excerpt: "So Simple is a responsive Jekyll theme for your words and images."
+excerpt: "A short bio about me"
 modified: 2020-04-14T19:44:38.564948-04:00
 image:
   feature: back.jpg
@@ -38,6 +38,6 @@ I hold a PhD degree in Computer Science and Engineering from [Indian Institute o
   * Aug 2005 - June 2009
  
 
-<a markdown="0" href="https://www.bennett.edu.in/faculties/dr-vipul-kumar-mishra/" class="btn">Vipul Mishra</a>
 
-[^1]: Example: *domain.com/category-name/post-title*
+
+[^1]: Example: *https://mishravipul.in/*
