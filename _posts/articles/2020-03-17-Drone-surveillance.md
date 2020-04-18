@@ -3,7 +3,7 @@ layout: post
 title: Drone-surveillance for search and rescue in natural disaster
 excerpt: "Pyramidal feature extraction of SSD for human detection and action recognition."
 categories: articles
-tags: [,Drone surveillance, Convolution neural network (CNN), Object detection (OD), Action recognition, Aerial action dataset]
+tags: [ Drone surveillance, Convolution neural network (CNN), Object detection (OD), Action recognition, Aerial action dataset]
 image:
   feature: droneW.jpg
 comments: false
