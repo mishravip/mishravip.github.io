@@ -3,8 +3,9 @@ layout: page
 title: Vipul Mishra
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 modified: 2020-04-14T19:44:38.564948-04:00
+image:
+  feature: back.png
 ---
-<div class="MainImage"></div>
 I hold a PhD degree in Computer Science and Engineering from [Indian Institute of Technology Indore](https://iiti.ac.in/). **Currently, I am working as Assistant professor at [Bennett University](https://www.bennett.edu.in/).** I am coordinator, Product developer of the nation wide AI skilling & research initiative **[LeadingIndia.AI](https://www.leadingindia.ai/)**.
 
 ## My Research Areas are:
