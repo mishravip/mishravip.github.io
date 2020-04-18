@@ -52,14 +52,14 @@
         {% if page.share %}{% include social-share.html %}{% endif %}
         {% if page.ads != true %}{% include ad-sidebar.html %}<!-- /.google-ads -->{% endif %}
       </footer>
-<!--       <div class="entry-content">
+      <div class="entry-content">
         {{ content }}
-        {% if site.owner.disqus-shortname and page.comments or site.comments %}
+        <!--{% if site.owner.disqus-shortname and page.comments or site.comments %}
           <div id="disqus_thread"></div>
           {% include disqus-comments.html %}
         {% endif %}
-      </div>
-    </div> -->
+      </div>-->
+    </div>
     <nav class="pagination" role="navigation">
       {% if page.previous %}
         <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous</a>
