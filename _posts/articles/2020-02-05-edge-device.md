@@ -11,6 +11,7 @@ share: true
 ---
 
 In recent years, machine learning (ML) and deep learning (DL) have shown remarkable improvement in computer vision, natural language processing, stock prediction, forecasting, and audio processing to name a few.
+
 ![Prune]({{ site.url }}/images/pruning.png)
 
 We have presented a survey of various techniques suggested for compressing and accelerating the ML and DL models. We have also discussed the challenges of the existing techniques and have provided future research directions in the field.
