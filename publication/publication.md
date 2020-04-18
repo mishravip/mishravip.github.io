@@ -9,7 +9,7 @@ show-avatar: true
 </div>
 
 # Journals
-{% bibtex _plugins/unabuser journals.bib %}
+
 
 # Conferences
-{% bibtex _plugins/unabuser conferences.bib %}
+
