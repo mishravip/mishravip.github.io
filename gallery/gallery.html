@@ -14,108 +14,70 @@ header:
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include head.html %}
-  <link rel=stylesheet href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
-  <style>#map{height:100%;width:100%}.buhack-contact{display:grid;grid-template-columns:repeat(6,0fr);grid-auto-rows:50vh;grid-gap:10px;width:80%;margin:auto;color:#fff;align-items:center}#contactUs{grid-column:3/span 6;background-image:radial-gradient(rgba(0,0,0,.05),rgba(255,255,255,.2));border:3px solid;border-color:#000;text-align:center;width:100%;height:100%;padding:15px}</style>
-<style>.buhack-contact{display:grid;grid-template-columns:repeat(6,0fr);grid-auto-rows:50vh;grid-gap:10px;width:100%;margin:auto;color:#fff;align-items:center}#contactUs{grid-column:3/span 6;background-image:radial-gradient(rgba(0,0,0,.05),rgba(255,255,255,.2));border:3px solid;border-color:#000;text-align:center;width:100%;height:100%;padding:15px}</style> 
-   <style>
-	@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
-
-.boxings23 {
-  margin-bottom: 1.25em;
-  background-color:#0F0F0F;
+ <style>
+.MainImage {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    margin-top: -3%;
+    margin-bottom: 5%;
 }
-
-.info23 {
-  display: block;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #FDFEFF;
-   width: 100%;
-}
-
-
-
-
-.info123 {
-   width: 100%;
-  padding: 0.75em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-.info123:focus {
-  border: 3px solid #FEB900;
-}
-.info223:focus {
-  border: 3px solid #FEB900;
-}
-.info223 {
-  width: 100%;
-  padding: 0.75em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-  height:9.375em;
-}
-
-.common_btn23 {
-  background-color: #FEB900;
-  font-family: 'Open Sans', sans-serif;
-  width: 20%;
-  min-width:6.25em;
-  border: 0;
-  color: #FDFEFF;
-  font-weight: 700;
-  font-size: 1.5rem;
-  padding: 10px 0;
-  cursor: pointer;
-  margin-top: 3%;
-  margin-bottom: 5%;
-}
-
-.common_btn23:hover {
-  transition: all 0.5s ease-in-out;
-  background-color: #FDFEFF;
-  color: #FEB900;
-}
-
-	
-	
-	
-	
-	</style>
+ </style>   
 </head>
 
 <body id="page">
 
-{% include navigation.html %}
-
 <div class="gallery">
   <a target="_blank" href="img_5terre.jpg">
-    <img src="back.jpg" alt="Cinque Terre" width="600" height="400">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="img_forest.jpg">
-    <img src="back.jpg" alt="Forest" width="600" height="400">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
-    <img src="back.jpg" alt="Northern Lights" width="600" height="400">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="img_mountains.jpg">
-    <img src="back.jpg" alt="Mountains" width="600" height="400">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
+
+
+<div id="main" role="main">
+  <article class="entry">
+    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="MainImage" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></p>{% endif %}{% endif %}
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <h1 class="entry-title">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</h1>
+      </header>
+      <div class="entry-content">
+        {{ content }}
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo" class="entry-wrapper">
+    {% include footer.html %}
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}
+
 </body>
 </html>
