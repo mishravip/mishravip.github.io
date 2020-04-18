@@ -4,7 +4,7 @@ title: Vipul Mishra
 excerpt: "So Simple is a responsive Jekyll theme for your words and images."
 modified: 2020-04-14T19:44:38.564948-04:00
 image:
-  feature: https://miro.medium.com/max/1830/0*ononG3N71UG7mR2T.png
+  feature: back.png
   credit: Cassie Boca
   creditlink: https://unsplash.com/photos/lCE9uRmh7b8
 ---
