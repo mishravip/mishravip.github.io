@@ -61,7 +61,7 @@ header:
 .common_btn23 {
   background-color: #FEB900;
   font-family: 'Open Sans', sans-serif;
-  width: 40%;
+  width: 20%;
   min-width:6.25em;
   border: 0;
   color: #FDFEFF;
@@ -69,6 +69,8 @@ header:
   font-size: 1.5rem;
   padding: 10px 0;
   cursor: pointer;
+  margin-top: 3%;
+  margin-bottom: 5%;
 }
 
 .common_btn23:hover {
@@ -192,7 +194,7 @@ function postToGoogle() {
 {% include scripts.html %}
 <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>  
 <script>
-center=[28.45,77.5843];var mymap=L.map("map").setView(center,11);L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}",{maxZoom:18,id:"mapbox.dark",accessToken:"pk.eyJ1IjoiYXJqdW4wMDkiLCJhIjoiY2sxYnc5MnY4MGR0dTNucGdvaG5ua3hsMCJ9.poKC0VmKs2fAPwugNM8uQw"}).addTo(mymap);var marker=L.marker(center).addTo(mymap);marker.bindPopup("<b>BU'Hack</b> 2020 <br>Bennett University, Greater Noida").openPopup();  
+center=[28.45,77.5843];var mymap=L.map("map").setView(center,11);L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}",{maxZoom:18,id:"mapbox.dark",accessToken:"pk.eyJ1IjoiYXJqdW4wMDkiLCJhIjoiY2sxYnc5MnY4MGR0dTNucGdvaG5ua3hsMCJ9.poKC0VmKs2fAPwugNM8uQw"}).addTo(mymap);var marker=L.marker(center).addTo(mymap);marker.bindPopup("Dept. of Computer Science and Engineering <br>Bennett University, Greater Noida").openPopup();  
 </script>  
       </div><!-- /.entry-content -->
     </div><!-- /.entry-wrapper -->
