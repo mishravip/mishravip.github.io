@@ -1,93 +1,20 @@
 ---
-layout: page
+layout: post
 title: Drone-surveillance for search and rescue in natural disaster
-excerpt: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
+excerpt: "Pyramidal feature extraction of SSD for human detection and action recognition."
 categories: articles
 tags: [Drone surveillance, Convolution neural network (CNN), Object detection (OD), Action recognition, Aerial action dataset]
 image:
-  feature: so-simple-sample-image-1.jpg
+  feature: droneW.jpg
 comments: false
 share: true
 ---
 
-Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
+Due to the increasing capability of drones and requirements to monitor remote areas, drone surveillance is becoming popular.
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
-
-### Body text
-
-Lorem ipsum dolor sit amet, test link adipiscing elit. **This is strong**. Nullam dignissim convallis est. Quisque aliquam.
-
-![Smithsonian Image]({{ site.url }}/images/3953273590_704e3899d5_m.jpg)
+![Smithsonian Image]({{ site.url }}/images/drone.jpg)
 {: .pull-right}
 
-*This is emphasized*. Donec faucibus. Nunc iaculis suscipit dui. 53 = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times <cite>(That’s a citation)</cite>. <u>Underline</u>. Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.
+In case of natural disaster, it can scan the wide affected-area quickly and make the search and rescue (SAR) faster to save more human lives. However, using autonomous drone for search and rescue is least explored and require attention of researchers to develop efficient algorithms in autonomous drone surveillance. Proposed model achieves 0.98mAP when applied on proposed dataset which is a significant contribution. In addition, proposed model achieve 7% higher mAP value when applied to standard Okutama dataset in comparison with the state-of-the-art detection models in literature.
 
-HTML and <abbr title="cascading stylesheets">CSS<abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.
-
-### Blockquotes
-
-> Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.
-
-## List Types
-
-### Ordered Lists
-
-1. Item one
-   1. sub item one
-   2. sub item two
-   3. sub item three
-2. Item two
-
-### Unordered Lists
-
-* Item one
-* Item two
-* Item three
-
-## Tables
-
-| Header1 | Header2 | Header3 |
-|:--------|:-------:|--------:|
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3   |
-{: .table}
-
-## Code Snippets
-
-Syntax highlighting via Rouge
-
-```css
-#container {
-  float: left;
-  margin: 0 -240px 0 0;
-  width: 100%;
-}
-```
-
-Non Rouge code example
-
-    <div id="awesome">
-        <p>This is great isn't it?</p>
-    </div>
-
-## Buttons
-
-Make any link standout more when applying the `.btn` class.
-
-<div markdown="0"><a href="#" class="btn">This is a button</a></div>
+<div markdown="0"><a href="https://www.sciencedirect.com/science/article/pii/S0140366419318602" class="btn">Read Complete Article</a></div>
